@@ -1,0 +1,51 @@
+h1{
+    display:none !important;
+}
+
+.beon-showcase__item-actions{
+    opacity: 0;
+}
+
+.beon-showcase .beon-showcase__item:hover .beon-showcase__item-actions{
+        opacity: 1;
+        transition: 1500ms;
+}
+
+.beon-showcase .beon-showcase__head .beon-showcase__title, .beon-showcase .beon-showcase__head .beon-showcase__viewmore{
+    display: block;
+}
+
+.beon-showcase .beon-showcase__head{
+    text-align: center;
+}
+.beon-showcase__item-badges{
+    position: absolute;
+    top: 58px;
+    left: 10px;
+}
+
+span.beon-showcase__item-badge.beon-showcase__item-badge--off span{
+    display: block;
+}
+span.beon-showcase__item-badge.beon-showcase__item-badge--off.beon-showcase__item-badge--off-value{
+    display: none;
+}
+.beon-showcase .beon-showcase__item-badge--off{
+    display: block;
+    padding: 1em 1em;
+    font-size: 15px;
+    background-color: #d20c42;
+    border-radius: 50%;
+}
+
+.beon-showcase .beon-showcase__item-badge{
+    position: unset;
+}
+
+span.beon-showcase__item-price.beon-showcase__item-price--from{
+    text-decoration: line-through;
+}
+
+.beon-showcase__item-actions a span{
+    color: white;
+}
